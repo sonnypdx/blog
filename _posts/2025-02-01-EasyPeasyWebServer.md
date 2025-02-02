@@ -1,9 +1,9 @@
 ---
-title: "Easy_Ways_WebServer"
+title: "EasyPeasyWebServer"
 date: 2025-02-01
 ---
 
-# Easy Ways to Run a Simple Web Server
+# Easy Peasy Ways to Run a Simple Web Server
 
 If you are on Windows like me and you did not want to run IIS or IIS Express just to serve some static content, you might want to consider the following no-fuss, no-configuration way to start a simple web server. 
 
