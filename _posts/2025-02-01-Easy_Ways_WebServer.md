@@ -1,5 +1,5 @@
 ---
-title: "Easy Ways WebServer"
+title: "Easy_Ways_WebServer"
 date: 2025-02-01
 ---
 
