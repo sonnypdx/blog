@@ -1,5 +1,5 @@
 ---
-title: "Easy Ways to Run a Simple Web Server"
+title: "Easy Ways WebServer"
 date: 2025-02-01
 ---
 
