@@ -9,3 +9,12 @@ layout: default
 {% for post in site.posts %}
   {{ post | inspect }}
 {% endfor %}
+
+{% for post in site.posts %}
+  <h2>{{ post.title }}</h2>
+  <p>URL: {{ post.url }}</p>
+  <p>Date: {{ post.date }}</p>
+  <p>Excerpt: {{ post.excerpt }}</p>
+  <p>Description: {{ post.description }}</p>
+  <!-- Add or remove properties as needed -->
+{% endfor %}
