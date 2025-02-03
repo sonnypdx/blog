@@ -1,2 +1,2 @@
 # blog
-Personal blog site
+Repo for my blog.
