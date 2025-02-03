@@ -9,21 +9,11 @@ If you are on Windows like me and you did not want to run IIS or IIS Express but
 
 ### 1. Using Node.js and http-server
 
-- Install http-server. 
-  ```bash
-  npm install -g http-server
-  ```
-- Run it from the folder.
-  ```bash
-  http-server
-  ```
+- Install http-server: `npm install -g http-server`
+- Run it from the folder:  `http-server`
 
 ### 2. Using Python
-- Using Python's built-in HTTP server if you have Python installed.
-- You can run it with one command:
-  ```bash
-  python -m http.server 8000
-  ```
+- Using Python's built-in HTTP server if you have Python installed: `python -m http.server 8000`
 
 ### 3. Visual Studio Code with Live Server Extension
 
@@ -88,14 +78,7 @@ If you are on Windows like me and you did not want to run IIS or IIS Express but
 ### 7. Using Docker with an Existing Image
 - Granted these are a little bit memory intensive but I am including them here because it is easy to remove them once you are done.
 
-- Using nginx:
-  ```bash
-  docker run --name my-nginx -v /path/to/your/site:/usr/share/nginx/html:ro -d -p 8080:80 nginx
-  ```
-
-- Using httpd (Apache):
-  ```bash
-  docker run --name my-apache -v /path/to/your/site:/usr/local/apache2/htdocs:ro -d -p 8080:80 httpd
-  ```
+- Using nginx: `docker run --name my-nginx -v /path/to/your/site:/usr/share/nginx/html:ro -d -p 8080:80 nginx`
+- Using httpd (Apache): `docker run --name my-apache -v /path/to/your/site:/usr/local/apache2/htdocs:ro -d -p 8080:80 httpd`
 
 Hope you find one of these ways useful!
