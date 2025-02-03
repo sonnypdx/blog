@@ -1,7 +1,7 @@
 ---
 title: "EasyWebServer"
 date: 2025-02-01
-excerpt: "Simple and fun ways to start a simple web server.  Should work on any platform but tried them on Windows.
+excerpt: "Simple and fun ways to start a simple web server.  Should work on any platform but tried them on Windows."
 ---
 
 # Easy Ways to Run a Simple Web Server
