@@ -4,3 +4,5 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
 author: https://sonnypdx.github.io/blog
+index:
+  layout: home
