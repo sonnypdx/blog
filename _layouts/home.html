@@ -2,19 +2,7 @@
 layout: default
 ---
 {% assign latest_post = site.posts | first %}
-<h1>{{latest_post.title}}</h1>
+<h1>{{latest_post.description}}</h1>
 <p>{{ latest_post.excerpt }}</p>
-<a href="{{ latest_post.url }}">Read More</a>
+<a href="/blog/{{ latest_post.url }}">Read More</a>
 <hr/>
-{% for post in site.posts %}
-  {{ post | inspect }}
-{% endfor %}
-
-{% for post in site.posts %}
-  <h2>{{ post.title }}</h2>
-  <p>URL: {{ post.url }}</p>
-  <p>Date: {{ post.date }}</p>
-  <p>Excerpt: {{ post.excerpt }}</p>
-  <p>Description: {{ post.description }}</p>
-  <!-- Add or remove properties as needed -->
-{% endfor %}

@@ -82,7 +82,9 @@ If you are on Windows like me and you did not want to run IIS or IIS Express but
 ### 7. Using Docker with an Existing Image
 - Granted these are a little bit memory intensive but I am including them here because it is easy to remove them once you are done.
 
-- Using nginx: `docker run --name my-nginx -v /path/to/your/site:/usr/share/nginx/html:ro -d -p 8080:80 nginx`
-- Using httpd (Apache): `docker run --name my-apache -v /path/to/your/site:/usr/local/apache2/htdocs:ro -d -p 8080:80 httpd`
+- Using nginx:
+`docker run --name my-nginx -v /path/to/your/site:/usr/share/nginx/html:ro -d -p 8080:80 nginx`
+- Using httpd (Apache):
+`docker run --name my-apache -v /path/to/your/site:/usr/local/apache2/htdocs:ro -d -p 8080:80 httpd`
 
 Hope you find one of these ways useful!
