@@ -4,3 +4,7 @@ layout: default
 {% assign latest_post = site.posts | first %}
 {{ latest_post.excerpt }}
 <a href="{{ latest_post.url }}">Read More</a>
+<hr/>
+{% for post in site.posts %}
+  {{ post | inspect }}
+{% endfor %}
