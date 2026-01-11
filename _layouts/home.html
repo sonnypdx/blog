@@ -4,9 +4,8 @@ layout: default
 {% assign latest_post = site.posts | first %}
 <h1>{{latest_post.description}}</h1>
 <p>{{ latest_post.excerpt }}</p>
-{% assign full_path = site.url | append: "/blog" %}
-<a href="{{site.url}}/blog{{ latest_post.url | replace: site.url, full_path}}">Read More</a>
-<p>This is what we got {{latest_post.url}} and {{site.url}} and {{full_path}}.</p>
+<a href="{{site.url}}/blog{{latest_post.url}}">Read More</a>
 <hr/>
+
 
 
